@@ -8,7 +8,7 @@
     },
     "API_HASH": {
       "description": "Get your api_hash from my.telegram.org"
-    }
+    },
     "BOT_TOKEN": {
       "description": "Create a bot from @BotFather on Telegram and get your bot token."
    }
