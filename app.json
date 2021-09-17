@@ -4,13 +4,10 @@
   "repository": "https://github.com/lambda-stock/Pyrogram-TelegramBot"
   "env": {
     "API_ID": {
-      "description": "Get your api_id from my.telegram.org"
+      "description": "Get your api id from my.telegram.org"
     },
     "API_HASH": {
-      "description": "Get your api_hash from my.telegram.org"
-    },
-    "BOT_TOKEN": {
-      "description": "Create a bot from @BotFather on Telegram and get your bot token."
-   }
+      "description": "Get you api hash from my.telegram.org"
+    }
   }
 }
