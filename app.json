@@ -11,6 +11,9 @@
     },
     "BOT_TOKEN": {
        "description": "Create a bot from @BotFather on Telegram and get your bot token."
+    },
+    "SESSION_NAME": {
+       "description": "Give a name to your session name."
     }
   }
 }
