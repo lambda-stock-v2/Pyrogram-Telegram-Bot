@@ -5,8 +5,10 @@ import time
 import os
 
 app = Client(
-    "<YOUR_SESSION_NAME>", bot_token="<YOUR_BOT_TOKEN"
+    os.environ.get("SESSION_NAME"), bot_token = os.environ.get("BOT_TOKEN"), api_id = os.environ.get("API_ID"), api_hash = os.environ.get("API_HASH")
 )
+
+print(os.environ.get("API_ID"))
 
 @app.on_message(filters.command("start"))
 async def start(client, message):
