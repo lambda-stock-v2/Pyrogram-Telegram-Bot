@@ -8,8 +8,6 @@ app = Client(
     api_id = os.environ.get("API_ID"), api_hash = os.environ.get("API_HASH"), os.environ.get("SESSION_NAME"), bot_token = os.environ.get("BOT_TOKEN")
 )
 
-print(os.environ.get("API_ID"))
-
 @app.on_message(filters.command("start"))
 async def start(client, message):
     await client.send_message(message.chat.id, f"""**Welcome** @{message.from_user.username}.
